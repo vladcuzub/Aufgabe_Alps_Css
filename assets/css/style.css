@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: poppins;
+
+}
+
+@font-face {
+	font-family: cinzel;
+	src: url('../fonts/Cinzel/Cinzel-VariableFont_wght.ttf');
+}
+
+@font-face {
+	font-family: poppins;
+	src: url('../fonts/Poppins/Poppins-Regular.ttf')
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: cinzel;
+}
+
+header {
+	height: 50px;
+	background-color: #F5F5F5;
+	text-align: left;
+}
+
+.Logo {
+	text-decoration: none;
+	color: #999;
+	display: block;
+	padding: 12px 100px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.hero {
+	background-image: url('https://images.unsplash.com/photo-1486312699619-be057cfc0342?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 577px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 50px;
+	display: inline-block;
+	margin: 300px;
+}
+
+.choose {
+	height: 344px;
+	color: #333;
+	display: inline-block;
+	text-align: center;
+	margin: 0 300px;
+}
+
+.choose h2 {
+	margin: 80px;
+}
+
+article {
+	display: inline-block;
+	margin: 0 100px;
+}
+
+img {
+	padding: 30px;
+}
+
+.dates {
+	height: 315px;
+	margin: 0 auto;
+	border-bottom: 2px solid rgb(210, 210, 210);
+}
+
+.dates h3 {
+	text-align: center;
+	color: #333333;
+	line-height: 62px;
+}
+
+ul {
+	padding: 0 185px;
+	list-style: none;
+}
+
+ul li {
+	padding-bottom: 10px;
+}
+
+.sold {
+	color: red;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.aviable {
+	color: green;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: medium;
+}
+
+footer {
+	text-align: center;
+}
+
+footer h4 {
+	margin: 50px;
+}
+
+footer ul li {
+	display: inline-block;
+}
+
+footer ul li a {
+	padding-bottom: 10px;
+	text-decoration: none;
+	padding: 20px;
+	margin-right: 10px;
+
+
+}
+
+.face {
+	background-image: url('https://cdn-icons-png.flaticon.com/512/124/124010.png?w=360');
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.twit {
+	background-image: url('https://img.freepik.com/freie-ikonen/twitter_318-674515.jpg');
+	background-size: 10px;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+
+.insta {
+	background-image: url('https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg');
+	background-size: 40px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
